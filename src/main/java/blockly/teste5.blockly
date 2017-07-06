@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly formTarget="" resourceType="JAVA" ruleDescription="teste5" ruleName="teste5" ruleSynchronous="false" ruleType="I">
+  <metadata scale="1" scrollx="357" scrolly="-5.684341886080802e-14"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">teste5</comment>
+    <statement name="STACK">
+      <block colour="#5b80a5" id="n}28@#j~%EYFfep7F;]!" tooltip="function bound () {     [native code] }" type="controls_if">
+        <mutation elseif="1"/>
+        <value name="IF0">
+          <block colour="#5b67a5" id="khTXIUI6Q1q}7I`Tb08+" tooltip="Verifica se um número é par, ímpar, inteiro, positivo, negativo, ou se é divisível por outro número.  Retorna verdadeiro ou falso." type="math_number_property">
+            <mutation divisor_input="false"/>
+            <field name="PROPERTY">EVEN</field>
+            <value name="NUMBER_TO_CHECK">
+              <shadow colour="#5b67a5" id="Jj#_wBamH@QX]9~GVL{O" tooltip="function bound () {     [native code] }" type="math_number">
+                <field name="NUM">2</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <value name="IF1">
+          <block colour="#5b67a5" id="kCY4r?o!m7W#A6fKcDG#" tooltip="Verifica se um número é par, ímpar, inteiro, positivo, negativo, ou se é divisível por outro número.  Retorna verdadeiro ou falso." type="math_number_property">
+            <mutation divisor_input="false"/>
+            <field name="PROPERTY">ODD</field>
+            <value name="NUMBER_TO_CHECK">
+              <shadow colour="#5b67a5" id="a`7X~76*71o`6;0d=1aO" tooltip="function bound () {     [native code] }" type="math_number">
+                <field name="NUM">3</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block colour="#a55b80" id="|z[P5`6w.sfL=LzLU,--" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field name="VAR">item</field>
+      </block>
+    </value>
+  </block>
+</blockly>
